@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    padding: 10px;
+
+}
+
+@media (max-width:768px){
+    .header-container{
+         grid-template-columns: repeat(1,1fr);
+    }   
+   }
+
+ .header-title h1{
+     margin-left: 50px;
+     color: white;
+
+}
+.navbar  a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: .8rem;
+    
+}

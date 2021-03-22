@@ -1,0 +1,16 @@
+.rider-container{
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 4px gray;
+    cursor:pointer;
+   
+    
+}
+.rider-card{
+    height: 150px;
+    
+}
